@@ -1,11 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Chuan</title>
+    <style>
+
+
+
+    </style>
 </head>
+
 <body>
-    
+    <!-- 
+        class : quy dinh nhieu the co cung 1 style
+        id : quy dinh 1 the co 1 style
+
+     -->
+
+    <h2 id="abc">
+        the c
+    </h2>
+    <h1 class="h1tag" id="abc"> Day la object H1 tag 2</h1>
+    <input type="text" id="inputbox" onchange=handle()>
+    <h1 class="h1tag" id="abc2"> Day la object H1 tag 2</h1>
+
+
+
+
+
+    <script>
+        //css selector 
+        // dom : document object model 
+        /*
+        function handle() {
+            document.getElementById("inputbox").value;
+            document.getElementById("injector").innerHTML = document.getElementById("inputbox").value;
+        }
+        const anyTag = document.querySelector("#abc2");
+        anyTag.innerHTML = "Day la object H1 tag 3";
+        */
+
+        //object in JS 
+        /*
+        const obj = {
+            name: "Nguyen Van A",
+            age: 20,
+            address: "Ha Noi",
+            phone: "0987654321"
+        }
+        function contructor(name, age, address, phone) {
+            this.name = name;
+            this.age = age;
+            this.address = address;
+            this.phone = phone;
+            this.showInfo = function() {
+                console.log(this.name, this.age, this.address, this.phone);
+            }
+        }
+        const obj2 = new contructor("Nguyen Van B", 21, "Ha Noi", "0987654321");
+        console.log(obj2);
+        */
+
+        //JS is ngon ngu thong dich 
+        //JS is single thread
+        //JS is async
+
+        //cho 7 giay
+        // arrrow function 
+
+
+        // *call back 
+
+        // ko re wa callback hell 
+        // setTimeout(() => {
+
+        //     setTimeout(() => {
+        //         setTimeout(() => {
+        //             setTimeout(() => {
+        //                 setTimeout(() => {
+        //                     setTimeout(() => {
+        //                         setTimeout(() => {
+        //                             console.log("ahuhu? 4")
+        //                         }, 8000);
+        //                     }, 8000);
+        //                 }, 8000);
+        //             }, 8000);
+        //         }, 8000);
+        //     }, 8000);
+        //     console.log("dang trong task1")
+        // }, 7000);
+
+
+
+
+        // setTimeout(() => {
+        //     console.log("ahuhu 1 ?")
+        // }, 3000);
+
+
+        // setTimeout(() => {
+        //     console.log("ahuhu? ")
+        // }, 10000);
+
+
+        // setTimeout(() => {
+        //     console.log("ahuhu? 3 ")
+        // }, 7000);
+
+
+        //call back 
+        // fetch API 
+
+        // bom Browser Object Model
+
+
+        //promise 
+        // function resolve(value)
+        // {
+        //     return value
+        // }
+        // function reject(err)
+        // { 
+        //     return err 
+        // }
+
+        /*
+        let myPromise = new Promise(function(myResolve, myReject) {
+        let x = 0;
+        const res = x+3;
+        
+        if (res == 1)
+            myResolve(res);
+        else 
+            myReject("Ong co noi may");
+        });
+
+        myPromise.then(function(value) {
+            console.log(value);
+        }, function(err) {
+            console.log(err);
+        });
+        */
+        //async await  Chi await dc promise thoi.
+        /*
+        async function myDisplay() {
+            let myPromise = new Promise(function (resolve) {
+                setTimeout(function () { resolve("I love You !!"); }, 3000);
+            });
+            const result = await delay();
+            console.log(result);
+            console.log("I hate you ");
+            
+        }
+
+        myDisplay();*/
+        
+       // alert("ahihi ")
+
+       /*
+        lam trang web dang nhap 
+        tai khoan/ mat khau 
+        dang nhap thanh cong/ that bai
+        tai khoan : admin/admin 
+        dung ham alert de thong bao 
+        */
+        /*
+        event handler  
+        1 thuoc tinh cua html 
+        goi ham cua JS  khi xay ra su kien
+
+        */
+
+    </script>
 </body>
+
 </html>
